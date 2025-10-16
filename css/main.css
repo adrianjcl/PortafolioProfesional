@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: auto;
+}
+
+h1{
+    font-family: "Merriweather", serif;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header
+        {
+        background-color: #4995f8;
+        text-align: center;
+        color: #ffffff;
+        border-bottom: solid 5px #6f6f6f;
+        padding: 30px 0 30px 0;
+        
+        }
+
+nav {
+    background-color: beige;
+    padding: 10px 10px;
+    border-bottom: #6f6f6f solid 5px;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #4995f8;
+    border-radius: 10px;
+}
+
+#bienvenida {
+    padding: 30px;
+    text-align: center;
+
+}
+
+#proyectos {
+    background-color: #4995f8;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#proyectos h2 {
+    color: #ffffff;
+}
+
+.lista-proyectos {
+    display: flex;
+    padding-top: 20px;
+}
+.proyecto {
+    width: 30%;
+    border: solid 2px #ffffff;
+    background-color: beige;
+    
+}
+
+.proyecto h3 {
+    color:#000000;
+}
+
+#competencias {
+    padding: 30px 30px;
+
+}
+
+#competencias h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#competencias ul {
+    list-style-type:none;
+    display: flex;
+}
+
+#competencias ul li {
+    background-color: beige;
+    color: black;
+    border-radius: 2px;
+    padding: 10px 20px;
+}
+
+
+#contacto {
+    padding: 30px;
+    border-top: 2px dashed #4995f8;
+}
+
+.campos {
+    padding: 10px;
+    clear: both;
+    font-size: 16px;
+}
+
+.campos label {
+    font-size: 20px;
+}
+
+.campos input {
+    font-size: 20px;
+    padding: 5px;
+    border: solid 2px #000000;
+    border-radius: 10px;
+}
+
+.campos button {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #4995f8;
+    color: #ffffff;
+    width: 20%;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+footer {
+    padding: 10px 30px;
+    background-color: beige;
+    color: #1c322c;
+    font-size: 14px;
+    border-top: solid 5px beige;
+    text-align: center;
+}
