@@ -12,11 +12,18 @@ h1{
 
 body{
     font-family: "Roboto", sans-serif;
+    background-color:  #121212;
+    color: white;
+}
+
+body mark {
+    background-color: #4995f8;
+    color: white;
 }
 
 header
         {
-        background-color: #4995f8;
+        background-color: #212121;
         text-align: center;
         color: #ffffff;
         border-bottom: solid 5px #6f6f6f;
@@ -25,21 +32,22 @@ header
         }
 
 nav {
-    background-color: beige;
+    background-color: #6f6f6f ;
     padding: 10px 10px;
     border-bottom: #6f6f6f solid 5px;
     font-size: 15px;
+    color: white;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     padding: 10px;
 }
 
 nav a:hover {
-    background-color: #4995f8;
+    background-color: #323334;
     border-radius: 10px;
 }
 
@@ -50,7 +58,7 @@ nav a:hover {
 }
 
 #proyectos {
-    background-color: #4995f8;
+    background-color: #525151;
     padding: 30px 20px;
     text-align: center;
 }
@@ -66,12 +74,14 @@ nav a:hover {
 .proyecto {
     width: 30%;
     border: solid 2px #ffffff;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
+    color: black;
     
 }
 
 .proyecto h3 {
     color:#000000;
+    text-align: center;
 }
 
 #competencias {
@@ -84,13 +94,17 @@ nav a:hover {
     text-align: center;
 }
 
+#competencias h3 {
+    padding: 10px;
+}
+
 #competencias ul {
     list-style-type:none;
     display: flex;
 }
 
 #competencias ul li {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 2px;
     padding: 10px 20px;
@@ -99,7 +113,7 @@ nav a:hover {
 
 #contacto {
     padding: 30px;
-    border-top: 2px dashed #4995f8;
+    border-top: 2px dashed #ffffff;
 }
 
 .campos {
